@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Occupied';
+    src: url("Occupied.otf"); 
+    font-style: normal;
+}
+html, body{
+    font-family: 'Occupied';
+    padding:0;
+    margin:0;
+}
+img{
+    max-width:100%;
+}
+#main{
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+.go_home{
+    display:none; 
+    position:fixed;
+    padding-left:1%;
+    font-size:4vh;
+    cursor:pointer;
+}
+.meat{
+    display:none;    
+}
+#projects p{
+    padding-left:15%;
+    padding-right:15%;
+}
+#projects th{
+    text-align:center;
+    color:lightgray;
+}
+.project_description{
+    overflow:hidden;
+    position:absolute;
+    display:none;
+}
+#mashups{    
+    padding-left:15%;
+    padding-right:15%;
+}
+#experience p{
+    padding-left:15%;
+    padding-right:15%;
+}
+#experience th{
+    text-align:center;
+    color:lightgray;
+}
+.job_description{
+    position:absolute;
+    display:none;
+    font-size:3.8vh;
+}
+table{
+    width:100%;
+    font-size:5vh;
+    padding-left:1%;
+}
+th{
+    text-align:left;
+}
+td{
+    font-size:4.3vh;
+}
+h2{
+    position:relative;
+    top:5%;
+    text-align:center;
+    font-size:3.5vh;
+    margin:0 auto;
+    margin-top:2%;
+}
+.icons{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+    position:relative;
+    margin:0 auto;
+    margin-top:5%;
+    text-align:center;    
+}
+.divlink{
+    position:absolute;
+    z-index:1;
+    cursor:pointer;
+    display:none;
+    height:40vh;
+    width:40vh;
+}
+#who_link{
+    top:0%;
+    left:0%;
+}
+#what_link{
+    top:0%;
+    right:0%;
+}
+.what_headers{
+    cursor:pointer;
+}
+.where_headers{
+    cursor:pointer;
+    text-align:center;
+}
+.how_headers{
+    color:black;
+    text-align:center;
+    width:50%;
+}
+#intro{
+    display:none;
+    position:absolute;
+    top:35%;
+    text-align:center;
+    font-size:10vh;
+    width:100%;
+}
+#where_link{
+    bottom:0%;
+    left:0%;
+}
+#how_link{
+    bottom:0%;
+    right:0%;
+}
+input{
+    font-family: 'Occupied';
+    width:25vw;
+    left:10%;
+    height:1.4em;
+    font-size:.8em;
+    border-style:none;
+    box-shadow:1px 1px 1px 1px #d3d3d3;
+    margin-top:2vh;
+    padding-left:.5vw;
+    background-color:rgba(255,255,255,0.4);
+}
+textarea{
+    font-family: 'Occupied';
+    width:25vw;
+    left:10%;
+    font-size:.8em;
+    border-style:none;
+    box-shadow:1px 1px 1px 1px #d3d3d3;
+    margin-top:2vh;
+    padding-left:.5vw;
+    background-color:rgba(255,255,255,0.4);    
+}
+input[type="submit"]{
+    cursor:pointer;
+    width:20vw;
+}
